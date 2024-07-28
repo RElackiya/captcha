@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins,sans-serif;
+} 
+body{
+min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: blueviolet;
+
+ 
+}
+
+.wrapper{
+    background-color:white;
+    width: 350px;
+    height: 100%;
+    padding: 35px;
+    border-radius: 5px;
+
+}
+.wrapper h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.Wrapper-captcha{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 25px;
+}
+.Wrapper-captcha #captcha{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    background-color: antiquewhite;
+    padding: 6px 10px;
+    border-radius: 5px;
+    border: none;
+    
+}
+.Wrapper-captcha button{
+    position: absolute;
+    right: 5px;
+    top: 60%;
+    width: 30px;
+    height: 30px;
+    transform: translateY(-60%);
+    background-color: blueviolet;
+    color: white;
+    border: none;
+ 
+    border-radius: 5px;
+}
+.wrapper-check{
+    position: relative;
+}
+.wrapper-check input{
+    width: 100%;
+    padding: 10px 90px 10px 12px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    height: 40px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+.wrapper-check button{
+    position: absolute;
+    top: 50%;
+  right:5px;
+    transform: translateY(-50%);
+    padding: 6px 15px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+ 
+.Wrapper-check button:hover,
+.Wrapper-captcha button:hover{
+    background-color:blueviolet;
+    transition: 0.4s;
+}
+.Wrapper p{
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+}
